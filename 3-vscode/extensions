@@ -1,3 +1,4 @@
+aaron-bond.better-comments
 amiralizadeh9480.laravel-extra-intellisense
 austenc.laravel-blade-spacer
 bmewburn.vscode-intelephense-client
@@ -6,9 +7,15 @@ dbaeumer.vscode-eslint
 eamodio.gitlens
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
+formulahendry.auto-rename-tag
 GitHub.copilot
+Gruntfuggly.todo-tree
 junstyle.php-cs-fixer
 mblode.twig-language-2
 naoray.laravel-goto-components
+neilbrayfield.php-docblocker
 onecentlin.laravel-blade
 onecentlin.laravel5-snippets
+RobbOwen.synthwave-vscode
+stackbreak.comment-divider
+ms-vscode-remote.remote-ssh
