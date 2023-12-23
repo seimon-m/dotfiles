@@ -17,9 +17,9 @@ fi
 info "Installing Rosetta..."
 sudo softwareupdate --install-rosetta
 
-./1-homebrew/setup.sh
+./0-macos/setup.sh
 
-find * -name "setup.sh" -not -wholename "1-homebrew*" -exec bash {} \;
+find * -name "setup.sh" -not -wholename "0-macos*" -exec bash {} \;
 
 info "Configure user bin folder..."
 
