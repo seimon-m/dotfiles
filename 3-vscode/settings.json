@@ -44,6 +44,9 @@
 	"eslint.validate": ["javascript"],
 	"eslint.packageManager": "yarn",
 	"javascript.validate.enable": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
 	// json
 	"[json]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode",

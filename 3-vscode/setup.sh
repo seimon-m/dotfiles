@@ -12,7 +12,7 @@ info "Setting up Visual Studio Code..."
 
 substep_info "Installing Visual Studio Code extensions..."
 cat extensions | while read extension; do
-	code --install-extension "$extension"
+	$(brew --prefix)/bin/code --install-extension "$extension"
 done
 
 substep_info "Creating Visual Studio Code folders..."

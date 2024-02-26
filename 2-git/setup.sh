@@ -20,7 +20,7 @@ read -p "Enter your git user.name: " name
 read -p "Enter your git user.email: " email
 
 # add user.name and user.email to gitconfig
-git config --global user.name "$name"
-git config --global user.email "$email"
+$(brew --prefix)/bin/git config --global user.name "$name"
+$(brew --prefix)/bin/git config --global user.email "$email"
 
 success "Finished configuring git files."
