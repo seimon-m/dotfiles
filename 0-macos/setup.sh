@@ -130,36 +130,6 @@ defaults write com.apple.SoftwareUpdate CriticalUpdateInstall -int 1
 defaults write com.apple.commerce AutoUpdate -bool true
 defaults write com.apple.commerce AutoUpdateRestartRequired -bool true
 
-###############################################################################
-# Git global defaults
-###############################################################################
-
-# Set your name and email
-git config --global user.name "Simon"
-git config --global user.email "simimueller@hotmail.com"
-
-# Set default branch name to main
-git config --global init.defaultBranch main
-
-# Use colored output
-git config --global color.ui auto
-
-# Enable helpful diffs
-git config --global diff.tool vimdiff
-git config --global merge.tool vimdiff
-
-# Default to rebase instead of merge when pulling
-git config --global pull.rebase true
-
-# Save credentials in keychain (macOS)
-git config --global credential.helper osxkeychain
-
-# Short log format for easier history
-git config --global format.pretty "%C(yellow)%h%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset"
-
-# Show push default as simple
-git config --global push.default simple
-
 
 ###############################################################################
 # Kill affected apps
